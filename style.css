@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Main container with sidebar and content */
+main {
+    display: flex;
+    height: 100vh;
+}
+
+
+
+/* Main Content Styling */
+.header {
+    flex: 1;
+    margin-left: 270px; /* To avoid overlapping with the sidebar */
+    padding: 20px;
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+/* Input and Button Styling */
+.header input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.header button {
+    padding: 10px 15px;
+    background:#000080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.header button:hover {
+    background: #00138055;
+}
+
+/* Task List */
+.content {
+    background-color: #B6D0E2;
+    flex: 1;
+    margin-left: 270px; /* To match the header */
+    padding: 20px;
+}
+
+#todoContainer p {
+    background: #fff;
+    padding: 10px;
+    margin: 5px
+}
+
+
+.pending{
+    background-color: 	#0096FF;
+    flex: 1;
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px;
+ 
+}
+#pendingContainer{
+    text-align: center;
+    background-color: 	#51b6ff;
+   border-radius: 20px;
+    padding: 5px;
+}
+.completed{
+    background-color: #d9e6ff;
+    flex: 1;
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background:#000080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
